@@ -38,13 +38,13 @@ body {
     }
   }
     @media (min-width: 1200px) {
-      .header .container {
-        width: 2000px;
-      }
-  }
-  @media (min-width: 992px) {
     .header .container {
-      width: 2000px;
+        width: 2000px;
+    }
+  }
+  @media (min-width: 1450px) {
+    .header .container {
+      width: 1457px;
     }
   }
   @media (min-width: 768px) {
@@ -59,7 +59,7 @@ body {
     align-items: center;
     POSITION: fixed;
     z-index: 1;
-    /* width: 1457px; */
+    width: 1457px;
     /* width: 965px; */
     background-color: white;
  } 
@@ -129,6 +129,7 @@ width: 100%;
 }
 .header .links ul li a:hover {
   padding-left: 25px;
+  background-color:#ca1042 ;
 }
 .header .links ul li:not(:last-child) a {
   border-bottom: 1px solid #ddd;
